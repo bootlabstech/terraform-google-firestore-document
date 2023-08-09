@@ -1,20 +1,20 @@
 variable "project_id" {
-    type= string 
-    description = "the id of project"
-  
+  type        = string
+  description = "the id of project"
+
 }
 variable "collection" {
-    type = string 
-    description = "collection of firestore "
-  
+  type        = string
+  description = "collection of firestore "
+
 }
 variable "document_id" {
-    type=string
-    description = "the id of docmnet databases"
-  
+  type        = string
+  description = "the id of docmnet databases"
+
 }
 variable "fields" {
-    type=string 
-    description = "the field of db"
-  
+  type        = string
+  description = "the field of db"
+
 }
