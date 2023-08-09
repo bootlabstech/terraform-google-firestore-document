@@ -3,7 +3,4 @@ resource "google_firestore_document" "mydoc" {
   collection  = var.collection
   document_id = var.document_id
   fields      = var.fields
-  lifecycle {
-    ignore_changes = [labels]
-  }
 }
